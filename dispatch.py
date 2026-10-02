@@ -20,3 +20,8 @@ n.add("Generator",
       p_nom=700,
       marginal_cost=3,
 )
+
+n.optimize()
+print(n.generators_t.p)
+n.model.to_file("dispatch.lp")
+
