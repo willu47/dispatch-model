@@ -17,6 +17,6 @@ n.add(
 n.add("Generator",
       "coal",
       bus="gen_bus",
-      p_nom=300,
+      p_nom=700,
       marginal_cost=3,
 )
