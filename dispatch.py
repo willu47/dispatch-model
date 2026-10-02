@@ -13,3 +13,10 @@ n.add(
     efficiency=0.93,
     p_nom=1000,
 )
+
+n.add("Generator",
+      "coal",
+      bus="gen_bus",
+      p_nom=300,
+      marginal_cost=3,
+)
